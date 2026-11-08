@@ -95,6 +95,6 @@ module.exports = {
     layout: 'minimal',
 
     // dark | light     (minimal looks great in 'light')
-    mode: 'light',
+    mode: 'dark',
   },
 };
