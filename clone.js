@@ -67,7 +67,7 @@ module.exports = {
   // ------------------------------------------------------------
   website: {
     // Small badge above the big title on the home page. '' = hide it.
-    badge: 'Base64 Session ID Generator',
+    badge: 'Base64 Session ID Generator - Fast & Simple',
 
     // Big title on the home page. '' = hide it.
     title: '',
@@ -89,7 +89,7 @@ module.exports = {
     //   green, blue, red, purple, orange, pink, cyan, yellow, teal, gold,
     //   lime, indigo, violet, white ... or any CSS colour name (crimson, tomato,
     //   dodgerblue ...) or a hex code like '#ff0055'.
-    color: 'gold',
+    color: 'teal',
 
     // modern | gradient | glass | minimal | cyber
     layout: 'minimal',
