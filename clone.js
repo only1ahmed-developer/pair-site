@@ -89,12 +89,12 @@ module.exports = {
     //   green, blue, red, purple, orange, pink, cyan, yellow, teal, gold,
     //   lime, indigo, violet, white ... or any CSS colour name (crimson, tomato,
     //   dodgerblue ...) or a hex code like '#ff0055'.
-    color: 'purple',
+    color: 'gold',
 
     // modern | gradient | glass | minimal | cyber
-    layout: 'cyber',
+    layout: 'minimal',
 
     // dark | light     (minimal looks great in 'light')
-    mode: 'dark',
+    mode: 'light',
   },
 };
