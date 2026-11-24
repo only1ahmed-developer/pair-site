@@ -23,11 +23,11 @@ module.exports = {
   //  BRANDING
   // ------------------------------------------------------------
   brand: {
-    name: 'Adevos-X Tech',          // main brand name (headings, texts, messages)
-    botName: 'ADEVOS-XMD',        // bot name shown on the pair page + browser tab
-    owner: 'Adevos',                // owner of the brand (use {owner} in texts)
-    developer: 'Ahmed',             // developer name (use {developer} in texts)
-    siteTitle: '{name} Pair Site',  // title shown in the top bar (always shown in CAPITALS)
+    name: 'CILLY TECH',          // main brand name (headings, texts, messages)
+    botName: 'CILLY XMD',        // bot name shown on the pair page + browser tab
+    owner: 'Cilly',                // owner of the brand (use {owner} in texts)
+    developer: 'Diest',             // developer name (use {developer} in texts)
+    siteTitle: 'CILLY XMD SESSION ID GENERATOR',  // title shown in the top bar (always shown in CAPITALS)
   },
 
   // ------------------------------------------------------------
@@ -49,17 +49,16 @@ module.exports = {
     // Text put in front of the Session ID, e.g. 'ADEVOS-X:~'.
     // '' = no prefix (the Session ID is just the plain base64 creds).
     // NOTE: your bot must strip the same prefix when it loads the session.
-    prefix: '',
+    prefix: 'CILLY:~',
 
     // Small footer under the Session ID message in WhatsApp. '' = no footer.
-    footer: '',
+    footer: 'CILLY XMD',
 
     // Message sent after the Session ID in WhatsApp. '' = send nothing.
     // (WhatsApp formatting works: *bold*, _italic_, > quote)
     message:
       '*Session ID Generated*\n\n' +
-      '1.Keep it safe and *Do NEVER* share this Session ID with anyone if Not necessary.\n\n' +
-      '> Powered by {name}',
+      '> POWERED BY {name}',
   },
 
   // ------------------------------------------------------------
@@ -67,18 +66,18 @@ module.exports = {
   // ------------------------------------------------------------
   website: {
     // Small badge above the big title on the home page. '' = hide it.
-    badge: 'Base64 Session ID Generator - Fast & Simple',
+    badge: 'CILLY XMD SESSION ID GENERATOR - AMAZING ONE',
 
     // Big title on the home page. '' = hide it.
-    title: '',
+    title: 'Base64 Session ID Generator',
 
     // Text under the title. '' = hide it.
     description:
-      'Session ID For ADEVOS-XMD',
+      'Builded with love By Diest',
 
     // Footer at the bottom of the home page. '' = hide the footer.
     // You may use <b>bold</b> (it is shown in the accent colour).
-    footer: '{name} <b>Session Generator</b> Made by <b>{developer}</b>',
+    footer: 'Powered by <b>CILLY TECH</b> Made by <b>{developer}</b>',
   },
 
   // ------------------------------------------------------------
@@ -89,12 +88,12 @@ module.exports = {
     //   green, blue, red, purple, orange, pink, cyan, yellow, teal, gold,
     //   lime, indigo, violet, white ... or any CSS colour name (crimson, tomato,
     //   dodgerblue ...) or a hex code like '#ff0055'.
-    color: 'teal',
+    color: 'purple',
 
     // modern | gradient | glass | minimal | cyber
     layout: 'minimal',
 
     // dark | light     (minimal looks great in 'light')
-    mode: 'dark',
+    mode: 'light',
   },
 };
